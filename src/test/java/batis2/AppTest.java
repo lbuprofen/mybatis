@@ -28,6 +28,7 @@ public class AppTest {
         Role userlist = new Role();
         try {
             //哈哈哈哈哈爱你哟
+            //克尔克
             sqlSession = MyBatisUtil.createSqlSession(sqlSession);
             Iselect and = sqlSession.getMapper(Iselect.class);
             List<Role> list = and.getUserListByUserName("大");
